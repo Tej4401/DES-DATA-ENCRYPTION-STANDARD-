@@ -58,13 +58,13 @@ key=[]
 for i in range(16):
     if i in spec:
         a=ls1(a)
-        b=ls1(a)
+        b=ls1(b)
         ab=concatenate(a,b)
         k=compression_D(ab)
         key.append(k)
     else:
         a=ls2(a)
-        b=ls2(a)
+        b=ls2(b)
         ab=concatenate(a,b)
         k=compression_D(ab)
         key.append(k)
